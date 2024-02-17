@@ -4,8 +4,8 @@
 
 ```
 cd ~
-clone
-echo "source ~/zshrc/.zshrc" > .zshrc
+git clone git@github.com:MaxLascombe/zshrc.git
+echo "source zshrc/.zshrc" > .zshrc
 ```
 
 ## Custom commands
