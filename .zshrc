@@ -1,6 +1,6 @@
 PROMPT=$'\n'"%F{magenta}%B%n%b%f @ %F{cyan}%d%B%f%b%f "
 
-cdParentUnlessInGit() {
+cd_parent_unless_in_git() {
     if [ -d .git ]; then
         return
     fi
@@ -18,7 +18,7 @@ v() {
 alias ls="ls -al"
 alias vim="v"
 alias sudo="sudo "
-alias ...="cdParentUnlessInGit"
+alias ...="cd_parent_unless_in_git"
 
 eval $(thefuck --alias)
 
