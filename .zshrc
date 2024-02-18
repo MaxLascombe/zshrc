@@ -15,6 +15,9 @@ v() {
         fi
 }
 
+alias gc="git commit -m"
+alias gp="git push"
+alias gs="git status"
 alias ls="ls -al"
 alias vim="v"
 alias sudo="sudo "
