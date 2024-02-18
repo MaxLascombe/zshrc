@@ -5,7 +5,7 @@
 ```
 cd ~
 git clone git@github.com:MaxLascombe/zshrc.git
-echo "source zshrc/.zshrc" > .zshrc
+echo "source ~/zshrc/.zshrc" > .zshrc
 . ./.zshrc
 ```
 
