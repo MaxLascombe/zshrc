@@ -5,6 +5,7 @@ cd_parent_unless_in_git() {
         return
     fi
     cd ..
+    cd_parent_unless_in_git
 }
 
 # Function that either opens a file in vim or cd's into a directory
