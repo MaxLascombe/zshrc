@@ -11,6 +11,7 @@ echo "source ~/zshrc/.zshrc" > .zshrc
 
 ## Custom commands
 
+- `cd`: Aliased to `v`, unless it is run with no arguments
 - `gc`: `git commit -m`
 - `gp`: `git push`
 - `gs`: `git status`
