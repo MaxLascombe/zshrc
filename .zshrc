@@ -26,6 +26,7 @@ cd() {
 }
 
 alias gac="git add -A && git commit -m"
+alias gb="git branch"
 alias gc="git commit -m"
 alias gp="git push"
 alias gs="git status"
