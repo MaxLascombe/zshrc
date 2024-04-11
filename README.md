@@ -16,7 +16,9 @@ echo "source ~/zshrc/.zshrc" > .zshrc
   `git branch`
 - `gc`: `git commit -m`
 - `gp`: `git push`
+- `gpl`: `git pull`
 - `gs`: `git status`
+- `gsw`: `git switch`
 - `ls`: Aliased to `ls -al`, which gives more info on the contents of the
   directory and shows hidden dot files as well
 - `v`: Given a file, it opens it using `nvim -p` (-p opens multiple files in
