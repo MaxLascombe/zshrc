@@ -21,6 +21,7 @@ echo "source ~/zshrc/.zshrc" > .zshrc
 - `gsw`: `git switch`
 - `ls`: Aliased to `ls -al`, which gives more info on the contents of the
   directory and shows hidden dot files as well
+- `python`: `python3`
 - `v`: Given a file, it opens it using `nvim -p` (-p opens multiple files in
   separate tabs). Given a directory, opens it using `cd`
 - `vim`: Aliased to `v`
