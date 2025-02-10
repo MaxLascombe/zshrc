@@ -1,4 +1,4 @@
-PROMPT=$'\n'"%F{magenta}%B%n%b%f @ %F{cyan}%d%B%f%b%f "
+PROMPT=$'\n'"%F{201}%B%n%b%f @ %F{123}%d%B%f%b%f "
 
 cd_parent_unless_in_git_recursive() {
     if [ -d .git ]; then
@@ -25,7 +25,8 @@ cd() {
     fi
 }
 
-alias gac="git add -A && git commit -m"
+alias ci="yarn prettier --check . && yarn eslint . && yarn knip"
+alias gac="git add -N . && git add -p && git commit -m"
 alias gb="git branch"
 alias gc="git commit -m"
 alias gp="git push"

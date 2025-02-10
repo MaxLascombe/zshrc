@@ -11,9 +11,8 @@ echo "source ~/zshrc/.zshrc" > .zshrc
 
 ## Custom commands
 
-- `cd`: Aliased to `v`, unless it is run with no arguments
-- `gac`: `git add -A && git commit -m` (aka. git add and commit) = `gb`:
-  `git branch`
+- `ci` : `yarn prettier --check . && yarn eslint . && yarn knip`
+- `gac`: `git add -N . && git add -p && git commit -m`
 - `gc`: `git commit -m`
 - `gp`: `git push`
 - `gpl`: `git pull`
