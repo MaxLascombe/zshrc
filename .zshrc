@@ -25,7 +25,7 @@ cd() {
     fi
 }
 
-alias ci="yarn prettier --check . && yarn eslint . && yarn knip"
+alias ci="yarn prettier --check . && yarn eslint . && yarn knip && yarn build"
 alias gac="git add -N . && git add -p && git commit -m"
 alias gb="git branch"
 alias gc="git commit -m"

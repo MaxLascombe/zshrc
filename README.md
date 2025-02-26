@@ -11,7 +11,7 @@ echo "source ~/zshrc/.zshrc" > .zshrc
 
 ## Custom commands
 
-- `ci` : `yarn prettier --check . && yarn eslint . && yarn knip`
+- `ci` : `yarn prettier --check . && yarn eslint . && yarn knip && yarn build`
 - `gac`: `git add -N . && git add -p && git commit -m`
 - `gc`: `git commit -m`
 - `gp`: `git push`
